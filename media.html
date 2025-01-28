@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <!--picture element for responsive images-->
+    <picture>
+        <source media="(max-width: 480px)" srcset="media/1.jpg" type="image/jpg">
+        <source media="(max-width: 768px)" srcset="media/2.jpg" type="image/jpg">
+        <source media="(max-width: 1024px)" srcset="media/3.jpg" type="image/jpg">
+        <img src="media/4.jpg" alt="a fallback image, one of my wallpapers">
+    </picture>
+
+    <!--audio element-->
+    <audio controls>
+        <source src="media/28 Jan, 22.18​.wav" type="audio/wav">
+    </audio>
+
+    <!--video element-->
+    <video width="320" height="240" controls>
+        
+    </video>
+
+    <!-- iframe for embedding content like YouTube or Vimeo -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- A powerful message about yourself -->
+    <p>I am a creator, a thinker, and an innovator. Through images, sounds, and motion, I share my journey 
+        and vision. Each medium tells a part of my story, weaving together to form the tapestry of who I am.
+    </p>
+</body>
+</html>
